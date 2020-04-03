@@ -68,46 +68,46 @@ AUTO.js - 简谱代码化
     If WorksheetFunction.CountIf(    .Cells(i), "C5(),") = 1 Then
     .Cells(i) = "C5(),R4();"
     End  If
-    If WorksheetFunction.CountIf(    .Cells(i), "D5") = 1 Then
+    If WorksheetFunction.CountIf(    .Cells(i), "D5(),") = 1 Then
     .Cells(i) = "D5(),R4();"
     End  If
-    If WorksheetFunction.CountIf(    .Cells(i), "E5") = 1 Then
+    If WorksheetFunction.CountIf(    .Cells(i), "E5(),") = 1 Then
     .Cells(i) = "E5(),R4();"
     End  If
-    If WorksheetFunction.CountIf(    .Cells(i), "F5") = 1 Then
+    If WorksheetFunction.CountIf(    .Cells(i), "F5(),") = 1 Then
     .Cells(i) = "F5(),R4();"
     End  If
-    If WorksheetFunction.CountIf(    .Cells(i), "G5") = 1 Then
+    If WorksheetFunction.CountIf(    .Cells(i), "G5(),") = 1 Then
     .Cells(i) = "G5(),R4();"
     End  If
-    If WorksheetFunction.CountIf(    .Cells(i), "A5") = 1 Then
+    If WorksheetFunction.CountIf(    .Cells(i), "A5(),") = 1 Then
     .Cells(i) = "A5(),R4();"
     End  If
-    If WorksheetFunction.CountIf(    .Cells(i), "B5") = 1 Then
+    If WorksheetFunction.CountIf(    .Cells(i), "B5(),") = 1 Then
     .Cells(i) = "B5(),R4();"
     End  If
-    If WorksheetFunction.CountIf(    .Cells(i), "C6") = 1 Then
+    If WorksheetFunction.CountIf(    .Cells(i), "C6(),") = 1 Then
     .Cells(i) = "C6(),R4();"
     End  If
-    If WorksheetFunction.CountIf(    .Cells(i), "D6") = 1 Then
+    If WorksheetFunction.CountIf(    .Cells(i), "D6(),") = 1 Then
     .Cells(i) = "D6(),R4();"
     End  If
-    If WorksheetFunction.CountIf(    .Cells(i), "E6") = 1 Then
+    If WorksheetFunction.CountIf(    .Cells(i), "E6(),") = 1 Then
     .Cells(i) = "E6(),R4();"
     End  If
-    If WorksheetFunction.CountIf(    .Cells(i), "F6") = 1 Then
+    If WorksheetFunction.CountIf(    .Cells(i), "F6(),") = 1 Then
     .Cells(i) = "F6(),R4();"
     End  If
-    If WorksheetFunction.CountIf(    .Cells(i), "G6") = 1 Then
+    If WorksheetFunction.CountIf(    .Cells(i), "G6(),") = 1 Then
     .Cells(i) = "G6(),R4();"
     End  If
-    If WorksheetFunction.CountIf(    .Cells(i), "A6") = 1 Then
+    If WorksheetFunction.CountIf(    .Cells(i), "A6(),") = 1 Then
     .Cells(i) = "A6(),R4();"
     End  If
-    If WorksheetFunction.CountIf(    .Cells(i), "B6") = 1 Then
+    If WorksheetFunction.CountIf(    .Cells(i), "B6(),") = 1 Then
     .Cells(i) = "B6(),R4();"
     End  If
-    If WorksheetFunction.CountIf(    .Cells(i), "C7") = 1 Then
+    If WorksheetFunction.CountIf(    .Cells(i), "C7(),") = 1 Then
     .Cells(i) = "C7(),R4();"
     End  If
     Next i
@@ -168,18 +168,6 @@ AUTO.js - 简谱代码化
     Next i
      End With
     End Sub
-
-    Sub 测试()
-    Dim i As Integer
-    With Range("A1:G100")
-    For i = 1 To .Cells.Count
-    If WorksheetFunction.CountIf(    .Cells(i), "*业务*") = 1 Then
-    .Cells(i) = "业务"
-    End  If
-    Next i
-     End With
-    End Sub
-
 
     ```
     
