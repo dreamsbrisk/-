@@ -4,7 +4,7 @@ AUTO.js - 简谱代码化
 
 #### Get Started
 
-1. 注册`GITHUB`，点击`Start`。
+1. 注册`GITHUB`，点击`Star`（误）。
 2. 打开电脑的`EXCEL`。
 3. 新键一个`宏命令`
 4. 输入以下代码：
