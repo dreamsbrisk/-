@@ -59,8 +59,8 @@ AUTO.js - 简谱代码化
     .Cells(i) = "C7(),"
     End  If
     Next i
-    End      With
-    End      Sub
+     End With
+    End Sub
     Sub 节奏化4分()
     Dim i As Integer
     With Range("A1:G100")
@@ -111,8 +111,8 @@ AUTO.js - 简谱代码化
     .Cells(i) = "C7(),R4();"
     End  If
     Next i
-    End      With
-    End      Sub
+     End With
+    End Sub
     Sub 标准化()
     Dim i As Integer
     With Range("A1:G100")
@@ -166,8 +166,8 @@ AUTO.js - 简谱代码化
 
     End  If
     Next i
-    End      With
-    End      Sub
+     End With
+    End Sub
 
     Sub 测试()
     Dim i As Integer
@@ -177,8 +177,8 @@ AUTO.js - 简谱代码化
     .Cells(i) = "业务"
     End  If
     Next i
-    End      With
-    End      Sub
+     End With
+    End Sub
 
 
     ```
