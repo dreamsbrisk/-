@@ -8,7 +8,6 @@ AUTO.js - 简谱代码化
 2. 打开电脑的`EXCEL`。
 3. 新键一个`宏命令`
 4. 输入以下代码：
-
     ```javascript
     Sub 代码化()
     Dim i As Integer
@@ -70,46 +69,46 @@ AUTO.js - 简谱代码化
     .Cells(i) = "C5(),R4();"
     End  If
     If WorksheetFunction.CountIf(    .Cells(i), "D5") = 1 Then
-    .Cells(i) = "D5(),"
+    .Cells(i) = "D5(),R4();"
     End  If
     If WorksheetFunction.CountIf(    .Cells(i), "E5") = 1 Then
-    .Cells(i) = "E5(),"
+    .Cells(i) = "E5(),R4();"
     End  If
     If WorksheetFunction.CountIf(    .Cells(i), "F5") = 1 Then
-    .Cells(i) = "F5(),"
+    .Cells(i) = "F5(),R4();"
     End  If
     If WorksheetFunction.CountIf(    .Cells(i), "G5") = 1 Then
-    .Cells(i) = "G5(),"
+    .Cells(i) = "G5(),R4();"
     End  If
     If WorksheetFunction.CountIf(    .Cells(i), "A5") = 1 Then
-    .Cells(i) = "A5(),"
+    .Cells(i) = "A5(),R4();"
     End  If
     If WorksheetFunction.CountIf(    .Cells(i), "B5") = 1 Then
-    .Cells(i) = "B5(),"
+    .Cells(i) = "B5(),R4();"
     End  If
     If WorksheetFunction.CountIf(    .Cells(i), "C6") = 1 Then
-    .Cells(i) = "C6(),"
+    .Cells(i) = "C6(),R4();"
     End  If
     If WorksheetFunction.CountIf(    .Cells(i), "D6") = 1 Then
-    .Cells(i) = "D6(),"
+    .Cells(i) = "D6(),R4();"
     End  If
     If WorksheetFunction.CountIf(    .Cells(i), "E6") = 1 Then
-    .Cells(i) = "E6(),"
+    .Cells(i) = "E6(),R4();"
     End  If
     If WorksheetFunction.CountIf(    .Cells(i), "F6") = 1 Then
-    .Cells(i) = "F6(),"
+    .Cells(i) = "F6(),R4();"
     End  If
     If WorksheetFunction.CountIf(    .Cells(i), "G6") = 1 Then
-    .Cells(i) = "G6(),"
+    .Cells(i) = "G6(),R4();"
     End  If
     If WorksheetFunction.CountIf(    .Cells(i), "A6") = 1 Then
-    .Cells(i) = "A6(),"
+    .Cells(i) = "A6(),R4();"
     End  If
     If WorksheetFunction.CountIf(    .Cells(i), "B6") = 1 Then
-    .Cells(i) = "B6(),"
+    .Cells(i) = "B6(),R4();"
     End  If
     If WorksheetFunction.CountIf(    .Cells(i), "C7") = 1 Then
-    .Cells(i) = "C7(),"
+    .Cells(i) = "C7(),R4();"
     End  If
     Next i
     End      With
@@ -180,8 +179,10 @@ AUTO.js - 简谱代码化
     Next i
     End      With
     End      Sub
+
+
     ```
+    
 5. 在`记事本`上写上`简谱`，每一段一个数字。
 6. 将其复制到`EXCEL`，运行宏命令。以标准化→代码化→节奏化为顺序。
 7. 将其复制，导入到模板。
-
